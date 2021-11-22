@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ipums-ddi-xslt.xsl"?>
+<codeBook ID="ddi2-5e77c5a0-44a6-0138-d463-0242ac180002-cps_00014.dat-cps.ipums.org" version="2.5" xmlns="ddi:codebook:2_5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="ddi:codebook:2_5 http://www.ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/codebook.xsd">
+  <docDscr>
+    <citation>
+      <titlStmt>
+        <titl>Codebook for an IPUMS-CPS Data Extract</titl>
+        <subTitl>DDI 2.5 metadata describing the extract file  'cps_00014.dat'</subTitl>
+        <IDNo>ddi2-5e77c5a0-44a6-0138-d463-0242ac180002-cps_00014.dat-cps.ipums.org</IDNo>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2021-11-19">November 19, 2021</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+    </citation>
+  </docDscr>
+  <stdyDscr>
+    <citation>
+      <titlStmt>
+        <titl>User Extract cps_00014.dat</titl>
+      </titlStmt>
+      <rspStmt>
+        <AuthEnty affiliation="University of Minnesota">IPUMS</AuthEnty>
+      </rspStmt>
+      <prodStmt>
+        <producer abbr="IPUMS" affiliation="University of Minnesota" role="Documentation">IPUMS</producer>
+        <prodDate date="2021-11-19">November 19, 2021</prodDate>
+        <prodPlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</prodPlac>
+      </prodStmt>
+      <distStmt>
+        <contact URI="https://ipums.org" affiliation="University of Minnesota">IPUMS</contact>
+      </distStmt>
+      <serStmt>
+        <serName abbr="cps">IPUMS CPS</serName>
+        <serInfo>DOI:10.18128/D030.V9.0</serInfo>
+      </serStmt>
+      <verStmt>
+        <version date="2021-11-19"/>
+      </verStmt>
+    </citation>
+    <stdyInfo>
+      <subject>
+        <topcClas vocab="IPUMS">Technical Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Geographic Variables -- HOUSEHOLD</topcClas>
+        <topcClas vocab="IPUMS">Demographics Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Education Variables -- PERSON</topcClas>
+        <topcClas vocab="IPUMS">Income Variables -- PERSON</topcClas>
+      </subject>
+      <sumDscr ID="sdatref-2352">
+        <timePrd date="1994-03" event="single">1994-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2353">
+        <timePrd date="1995-03" event="single">1995-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2354">
+        <timePrd date="1996-03" event="single">1996-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2355">
+        <timePrd date="1997-03" event="single">1997-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2356">
+        <timePrd date="1998-03" event="single">1998-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2357">
+        <timePrd date="1999-03" event="single">1999-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2358">
+        <timePrd date="2000-03" event="single">2000-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2359">
+        <timePrd date="2001-03" event="single">2001-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2360">
+        <timePrd date="2002-03" event="single">2002-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2361">
+        <timePrd date="2003-03" event="single">2003-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2362">
+        <timePrd date="2004-03" event="single">2004-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2363">
+        <timePrd date="2005-03" event="single">2005-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2364">
+        <timePrd date="2006-03" event="single">2006-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2367">
+        <timePrd date="2007-03" event="single">2007-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2366">
+        <timePrd date="2008-03" event="single">2008-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2368">
+        <timePrd date="2009-03" event="single">2009-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2369">
+        <timePrd date="2010-03" event="single">2010-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2467">
+        <timePrd date="2011-03" event="single">2011-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2640">
+        <timePrd date="2012-03" event="single">2012-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2656">
+        <timePrd date="2013-03" event="single">2013-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2737">
+        <timePrd date="2014-03" event="single">2014-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2899">
+        <timePrd date="2015-03" event="single">2015-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2912">
+        <timePrd date="2016-03" event="single">2016-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2936">
+        <timePrd date="2017-03" event="single">2017-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <sumDscr ID="sdatref-2949">
+        <timePrd date="2018-03" event="single">2018-03</timePrd>
+        <nation abbr="us">United States</nation>
+      </sumDscr>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1994
+            Density of the full data file:  0.09%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1995
+            Density of the full data file:  0.09%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1996
+            Density of the full data file:  0.08%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1997
+            Density of the full data file:  0.08%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1998
+            Density of the full data file:  0.08%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 1999
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2000
+            Density of the full data file:  0.08%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2001
+            Density of the full data file:  0.15%
+            Density of this extract: 0.2%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2002
+            Density of the full data file:  0.15%
+            Density of this extract: 0.2%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2003
+            Density of the full data file:  0.15%
+            Density of this extract: 0.2%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2004
+            Density of the full data file:  0.15%
+            Density of this extract: 0.2%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2005
+            Density of the full data file:  0.15%
+            Density of this extract: 0.2%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2006
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2007
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2008
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2009
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2010
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2011
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2012
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2013
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2014
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2015
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2016
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2017
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+      <notes><![CDATA[Additional notes on a sample that is part of this study:  IPUMS-CPS, ASEC 2018
+            Density of the full data file:  0.07%
+            Density of this extract: 0.1%
+]]></notes>
+    </stdyInfo>
+    <dataAccs>
+      <useStmt>
+        <confDec required="no"><![CDATA[None]]></confDec>
+        <contact URI="http://cps.ipums.org/" affiliation="IPUMS">IPUMS-CPS</contact>
+        <citReq><![CDATA[Publications and research reports based on the IPUMS-CPS database must cite it appropriately. The citation should include the following:
+
+Sarah Flood, Miriam King, Renae Rodgers, Steven Ruggles, J. Robert Warren and Michael Westberry. Integrated Public Use Microdata Series, Current Population Survey: Version 9.0 [dataset]. Minneapolis, MN: IPUMS, 2021. https://doi.org/10.18128/D030.V9.0
+
+The licensing agreement for use of IPUMS-CPS data requires that users supply us with the title and full citation for any publications, research reports, or educational materials making use of the data or documentation. Please add your citation to the IPUMS bibliography: http://bibliography.ipums.org/]]></citReq>
+        <conditions><![CDATA[Users of IPUMS-CPS data must agree to abide by the conditions of use. A user's license is valid for one year and may be renewed.  Users must agree to the following conditions:
+
+(1) No fees may be charged for use or distribution of the data.  All persons are granted a limited license to use these data, but you may not charge a fee for the data if you distribute it to others.
+
+(2) Cite IPUMS appropriately.  For information on proper citation,  refer to the citation requirement section of this DDI document.
+
+(3) Tell us about any work you do using the IPUMS.  Publications, research  reports, or presentations making use of IPUMS-CPS should be added to our  Bibliography. Continued funding for the IPUMS depends on our ability to  show our sponsor agencies that researchers are using the data for productive  purposes.
+
+(4) Use it for GOOD -- never for EVIL.]]></conditions>
+        <disclaimer>The user of the data acknowledges that the original collector of the data, the authorized distributor of the data, and the relevant funding agency bear no responsibility for use of the data or for interpretations or inferences based upon such uses.</disclaimer>
+      </useStmt>
+    </dataAccs>
+    <notes><![CDATA[User-provided description:  Revision of (Another Thesis Request OU )]]></notes>
+    <notes>This extract is a revision of the user's previous extract, ID 9234060.</notes>
+  </stdyDscr>
+  <fileDscr ID="ExtractData">
+    <fileTxt>
+      <fileName>cps_00014.dat</fileName>
+      <fileCont>Microdata records</fileCont>
+      <fileStrc type="rectangular"/>
+      <fileType charset="ISO-8859-1">ISO-8859-1 data file</fileType>
+      <format>fixed length fields</format>
+      <filePlac>IPUMS, 50 Willey Hall, 225 - 19th Avenue South, Minneapolis, MN 55455</filePlac>
+    </fileTxt>
+  </fileDscr>
+  <dataDscr>
+    <var ID="YEAR" dcml="0" files="ExtractData" intrvl="contin" name="YEAR">
+      <location EndPos="4" StartPos="1" width="4"/>
+      <labl>Survey year</labl>
+      <txt><![CDATA[YEAR reports the year in which the survey was conducted.  YEARP is repeated on person records.]]></txt>
+      <codInstr><![CDATA[CodesYEAR is a 4-digit numeric value.]]></codInstr>
+      <concept vocab="IPUMS">Technical Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="STATEFIP" dcml="0" files="ExtractData" intrvl="discrete" name="STATEFIP">
+      <location EndPos="6" StartPos="5" width="2"/>
+      <labl>State (FIPS code)</labl>
+      <txt><![CDATA[STATEFIP identifies the household's state of residence, using the Federal Information Processing Standards (FIPS) coding scheme, which orders the states alphabetically.
+
+In 1973-1975 ASEC samples, all households in the Anaheim-Santa Ana-Garden Grove, CA METAREA are coded as Michigan-Wisconsin for STATEFIP in the original data. As there is insufficient geographic information in the public use data to determine which variable is in error, this mistake has been left un-recoded.]]></txt>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>Alabama</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>Alaska</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>Arizona</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>Arkansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>California</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>Colorado</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>Connecticut</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>Delaware</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>District of Columbia</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>Florida</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>Georgia</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>Idaho</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>Illinois</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>Indiana</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>Iowa</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>Kansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>Kentucky</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>Louisiana</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>Maine</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>Maryland</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>Massachusetts</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>Michigan</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>Minnesota</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>Mississippi</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>Missouri</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>Montana</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>Nebraska</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>Nevada</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>New Hampshire</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>New Jersey</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>New Mexico</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>New York</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>North Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>North Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>39</catValu>
+        <labl>Ohio</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>Oklahoma</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>Oregon</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>Pennsylvania</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>Rhode Island</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>South Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>South Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>Tennessee</labl>
+      </catgry>
+      <catgry>
+        <catValu>48</catValu>
+        <labl>Texas</labl>
+      </catgry>
+      <catgry>
+        <catValu>49</catValu>
+        <labl>Utah</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>Washington</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>West Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>Wisconsin</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>Wyoming</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>Maine-New Hampshire-Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>Montana-Idaho-Wyoming</labl>
+      </catgry>
+      <catgry>
+        <catValu>68</catValu>
+        <labl>Alaska-Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>69</catValu>
+        <labl>Nebraska-North Dakota-South Dakota</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>Maine-Massachusetts-New Hampshire-Rhode Island-Vermont</labl>
+      </catgry>
+      <catgry>
+        <catValu>71</catValu>
+        <labl>Michigan-Wisconsin</labl>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>Minnesota-Iowa</labl>
+      </catgry>
+      <catgry>
+        <catValu>73</catValu>
+        <labl>Nebraska-North Dakota-South Dakota-Kansas</labl>
+      </catgry>
+      <catgry>
+        <catValu>74</catValu>
+        <labl>Delaware-Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>75</catValu>
+        <labl>North Carolina-South Carolina</labl>
+      </catgry>
+      <catgry>
+        <catValu>76</catValu>
+        <labl>Alabama-Mississippi</labl>
+      </catgry>
+      <catgry>
+        <catValu>77</catValu>
+        <labl>Arkansas-Oklahoma</labl>
+      </catgry>
+      <catgry>
+        <catValu>78</catValu>
+        <labl>Arizona-New Mexico-Colorado</labl>
+      </catgry>
+      <catgry>
+        <catValu>79</catValu>
+        <labl>Idaho-Wyoming-Utah-Montana-Nevada</labl>
+      </catgry>
+      <catgry>
+        <catValu>80</catValu>
+        <labl>Alaska-Washington-Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>81</catValu>
+        <labl>New Hampshire-Maine-Vermont-Rhode Island</labl>
+      </catgry>
+      <catgry>
+        <catValu>83</catValu>
+        <labl>South Carolina-Georgia</labl>
+      </catgry>
+      <catgry>
+        <catValu>84</catValu>
+        <labl>Kentucky-Tennessee</labl>
+      </catgry>
+      <catgry>
+        <catValu>85</catValu>
+        <labl>Arkansas-Louisiana-Oklahoma</labl>
+      </catgry>
+      <catgry>
+        <catValu>87</catValu>
+        <labl>Iowa-N Dakota-S Dakota-Nebraska-Kansas-Minnesota-Missouri</labl>
+      </catgry>
+      <catgry>
+        <catValu>88</catValu>
+        <labl>Washington-Oregon-Alaska-Hawaii</labl>
+      </catgry>
+      <catgry>
+        <catValu>89</catValu>
+        <labl>Montana-Wyoming-Colorado-New Mexico-Utah-Nevada-Arizona</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>Delaware-Maryland-Virginia-West Virginia</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>State not identified</labl>
+      </catgry>
+      <concept vocab="IPUMS">Geographic Variables -- HOUSEHOLD</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="AGE" dcml="0" files="ExtractData" intrvl="discrete" name="AGE">
+      <location EndPos="8" StartPos="7" width="2"/>
+      <labl>Age</labl>
+      <txt><![CDATA[Age gives each person's age at last birthday.]]></txt>
+      <catgry>
+        <catValu>00</catValu>
+        <labl>Under 1 year</labl>
+      </catgry>
+      <catgry>
+        <catValu>01</catValu>
+        <labl>1</labl>
+      </catgry>
+      <catgry>
+        <catValu>02</catValu>
+        <labl>2</labl>
+      </catgry>
+      <catgry>
+        <catValu>03</catValu>
+        <labl>3</labl>
+      </catgry>
+      <catgry>
+        <catValu>04</catValu>
+        <labl>4</labl>
+      </catgry>
+      <catgry>
+        <catValu>05</catValu>
+        <labl>5</labl>
+      </catgry>
+      <catgry>
+        <catValu>06</catValu>
+        <labl>6</labl>
+      </catgry>
+      <catgry>
+        <catValu>07</catValu>
+        <labl>7</labl>
+      </catgry>
+      <catgry>
+        <catValu>08</catValu>
+        <labl>8</labl>
+      </catgry>
+      <catgry>
+        <catValu>09</catValu>
+        <labl>9</labl>
+      </catgry>
+      <catgry>
+        <catValu>10</catValu>
+        <labl>10</labl>
+      </catgry>
+      <catgry>
+        <catValu>11</catValu>
+        <labl>11</labl>
+      </catgry>
+      <catgry>
+        <catValu>12</catValu>
+        <labl>12</labl>
+      </catgry>
+      <catgry>
+        <catValu>13</catValu>
+        <labl>13</labl>
+      </catgry>
+      <catgry>
+        <catValu>14</catValu>
+        <labl>14</labl>
+      </catgry>
+      <catgry>
+        <catValu>15</catValu>
+        <labl>15</labl>
+      </catgry>
+      <catgry>
+        <catValu>16</catValu>
+        <labl>16</labl>
+      </catgry>
+      <catgry>
+        <catValu>17</catValu>
+        <labl>17</labl>
+      </catgry>
+      <catgry>
+        <catValu>18</catValu>
+        <labl>18</labl>
+      </catgry>
+      <catgry>
+        <catValu>19</catValu>
+        <labl>19</labl>
+      </catgry>
+      <catgry>
+        <catValu>20</catValu>
+        <labl>20</labl>
+      </catgry>
+      <catgry>
+        <catValu>21</catValu>
+        <labl>21</labl>
+      </catgry>
+      <catgry>
+        <catValu>22</catValu>
+        <labl>22</labl>
+      </catgry>
+      <catgry>
+        <catValu>23</catValu>
+        <labl>23</labl>
+      </catgry>
+      <catgry>
+        <catValu>24</catValu>
+        <labl>24</labl>
+      </catgry>
+      <catgry>
+        <catValu>25</catValu>
+        <labl>25</labl>
+      </catgry>
+      <catgry>
+        <catValu>26</catValu>
+        <labl>26</labl>
+      </catgry>
+      <catgry>
+        <catValu>27</catValu>
+        <labl>27</labl>
+      </catgry>
+      <catgry>
+        <catValu>28</catValu>
+        <labl>28</labl>
+      </catgry>
+      <catgry>
+        <catValu>29</catValu>
+        <labl>29</labl>
+      </catgry>
+      <catgry>
+        <catValu>30</catValu>
+        <labl>30</labl>
+      </catgry>
+      <catgry>
+        <catValu>31</catValu>
+        <labl>31</labl>
+      </catgry>
+      <catgry>
+        <catValu>32</catValu>
+        <labl>32</labl>
+      </catgry>
+      <catgry>
+        <catValu>33</catValu>
+        <labl>33</labl>
+      </catgry>
+      <catgry>
+        <catValu>34</catValu>
+        <labl>34</labl>
+      </catgry>
+      <catgry>
+        <catValu>35</catValu>
+        <labl>35</labl>
+      </catgry>
+      <catgry>
+        <catValu>36</catValu>
+        <labl>36</labl>
+      </catgry>
+      <catgry>
+        <catValu>37</catValu>
+        <labl>37</labl>
+      </catgry>
+      <catgry>
+        <catValu>38</catValu>
+        <labl>38</labl>
+      </catgry>
+      <catgry>
+        <catValu>39</catValu>
+        <labl>39</labl>
+      </catgry>
+      <catgry>
+        <catValu>40</catValu>
+        <labl>40</labl>
+      </catgry>
+      <catgry>
+        <catValu>41</catValu>
+        <labl>41</labl>
+      </catgry>
+      <catgry>
+        <catValu>42</catValu>
+        <labl>42</labl>
+      </catgry>
+      <catgry>
+        <catValu>43</catValu>
+        <labl>43</labl>
+      </catgry>
+      <catgry>
+        <catValu>44</catValu>
+        <labl>44</labl>
+      </catgry>
+      <catgry>
+        <catValu>45</catValu>
+        <labl>45</labl>
+      </catgry>
+      <catgry>
+        <catValu>46</catValu>
+        <labl>46</labl>
+      </catgry>
+      <catgry>
+        <catValu>47</catValu>
+        <labl>47</labl>
+      </catgry>
+      <catgry>
+        <catValu>48</catValu>
+        <labl>48</labl>
+      </catgry>
+      <catgry>
+        <catValu>49</catValu>
+        <labl>49</labl>
+      </catgry>
+      <catgry>
+        <catValu>50</catValu>
+        <labl>50</labl>
+      </catgry>
+      <catgry>
+        <catValu>51</catValu>
+        <labl>51</labl>
+      </catgry>
+      <catgry>
+        <catValu>52</catValu>
+        <labl>52</labl>
+      </catgry>
+      <catgry>
+        <catValu>53</catValu>
+        <labl>53</labl>
+      </catgry>
+      <catgry>
+        <catValu>54</catValu>
+        <labl>54</labl>
+      </catgry>
+      <catgry>
+        <catValu>55</catValu>
+        <labl>55</labl>
+      </catgry>
+      <catgry>
+        <catValu>56</catValu>
+        <labl>56</labl>
+      </catgry>
+      <catgry>
+        <catValu>57</catValu>
+        <labl>57</labl>
+      </catgry>
+      <catgry>
+        <catValu>58</catValu>
+        <labl>58</labl>
+      </catgry>
+      <catgry>
+        <catValu>59</catValu>
+        <labl>59</labl>
+      </catgry>
+      <catgry>
+        <catValu>60</catValu>
+        <labl>60</labl>
+      </catgry>
+      <catgry>
+        <catValu>61</catValu>
+        <labl>61</labl>
+      </catgry>
+      <catgry>
+        <catValu>62</catValu>
+        <labl>62</labl>
+      </catgry>
+      <catgry>
+        <catValu>63</catValu>
+        <labl>63</labl>
+      </catgry>
+      <catgry>
+        <catValu>64</catValu>
+        <labl>64</labl>
+      </catgry>
+      <catgry>
+        <catValu>65</catValu>
+        <labl>65</labl>
+      </catgry>
+      <catgry>
+        <catValu>66</catValu>
+        <labl>66</labl>
+      </catgry>
+      <catgry>
+        <catValu>67</catValu>
+        <labl>67</labl>
+      </catgry>
+      <catgry>
+        <catValu>68</catValu>
+        <labl>68</labl>
+      </catgry>
+      <catgry>
+        <catValu>69</catValu>
+        <labl>69</labl>
+      </catgry>
+      <catgry>
+        <catValu>70</catValu>
+        <labl>70</labl>
+      </catgry>
+      <catgry>
+        <catValu>71</catValu>
+        <labl>71</labl>
+      </catgry>
+      <catgry>
+        <catValu>72</catValu>
+        <labl>72</labl>
+      </catgry>
+      <catgry>
+        <catValu>73</catValu>
+        <labl>73</labl>
+      </catgry>
+      <catgry>
+        <catValu>74</catValu>
+        <labl>74</labl>
+      </catgry>
+      <catgry>
+        <catValu>75</catValu>
+        <labl>75</labl>
+      </catgry>
+      <catgry>
+        <catValu>76</catValu>
+        <labl>76</labl>
+      </catgry>
+      <catgry>
+        <catValu>77</catValu>
+        <labl>77</labl>
+      </catgry>
+      <catgry>
+        <catValu>78</catValu>
+        <labl>78</labl>
+      </catgry>
+      <catgry>
+        <catValu>79</catValu>
+        <labl>79</labl>
+      </catgry>
+      <catgry>
+        <catValu>80</catValu>
+        <labl>80</labl>
+      </catgry>
+      <catgry>
+        <catValu>81</catValu>
+        <labl>81</labl>
+      </catgry>
+      <catgry>
+        <catValu>82</catValu>
+        <labl>82</labl>
+      </catgry>
+      <catgry>
+        <catValu>83</catValu>
+        <labl>83</labl>
+      </catgry>
+      <catgry>
+        <catValu>84</catValu>
+        <labl>84</labl>
+      </catgry>
+      <catgry>
+        <catValu>85</catValu>
+        <labl>85</labl>
+      </catgry>
+      <catgry>
+        <catValu>86</catValu>
+        <labl>86</labl>
+      </catgry>
+      <catgry>
+        <catValu>87</catValu>
+        <labl>87</labl>
+      </catgry>
+      <catgry>
+        <catValu>88</catValu>
+        <labl>88</labl>
+      </catgry>
+      <catgry>
+        <catValu>89</catValu>
+        <labl>89</labl>
+      </catgry>
+      <catgry>
+        <catValu>90</catValu>
+        <labl>90 (90+, 1988-2002)</labl>
+      </catgry>
+      <catgry>
+        <catValu>91</catValu>
+        <labl>91</labl>
+      </catgry>
+      <catgry>
+        <catValu>92</catValu>
+        <labl>92</labl>
+      </catgry>
+      <catgry>
+        <catValu>93</catValu>
+        <labl>93</labl>
+      </catgry>
+      <catgry>
+        <catValu>94</catValu>
+        <labl>94</labl>
+      </catgry>
+      <catgry>
+        <catValu>95</catValu>
+        <labl>95</labl>
+      </catgry>
+      <catgry>
+        <catValu>96</catValu>
+        <labl>96</labl>
+      </catgry>
+      <catgry>
+        <catValu>97</catValu>
+        <labl>97</labl>
+      </catgry>
+      <catgry>
+        <catValu>98</catValu>
+        <labl>98</labl>
+      </catgry>
+      <catgry>
+        <catValu>99</catValu>
+        <labl>99+</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="SEX" dcml="0" files="ExtractData" intrvl="discrete" name="SEX">
+      <location EndPos="9" StartPos="9" width="1"/>
+      <labl>Sex</labl>
+      <txt><![CDATA[SEX gives each person's sex.]]></txt>
+      <catgry>
+        <catValu>1</catValu>
+        <labl>Male</labl>
+      </catgry>
+      <catgry>
+        <catValu>2</catValu>
+        <labl>Female</labl>
+      </catgry>
+      <catgry>
+        <catValu>9</catValu>
+        <labl>NIU</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="RACE" dcml="0" files="ExtractData" intrvl="discrete" name="RACE">
+      <location EndPos="12" StartPos="10" width="3"/>
+      <labl>Race</labl>
+      <txt><![CDATA[Racial categories in the CPS have been more consistent than racial categories in the census.  Up through 2002, the number of race categories ranged from 3 (white, negro, and other) to 5 (white, black, American Indian/Eskimo/Aleut, Asian or Pacific Islander, and other).   Beginning in 2003, respondents could report more than one race, and the number of codes rose to 21, and then up to 26 codes in 2013.]]></txt>
+      <catgry>
+        <catValu>100</catValu>
+        <labl>White</labl>
+      </catgry>
+      <catgry>
+        <catValu>200</catValu>
+        <labl>Black/Negro</labl>
+      </catgry>
+      <catgry>
+        <catValu>300</catValu>
+        <labl>American Indian/Aleut/Eskimo</labl>
+      </catgry>
+      <catgry>
+        <catValu>650</catValu>
+        <labl>Asian or Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>651</catValu>
+        <labl>Asian only</labl>
+      </catgry>
+      <catgry>
+        <catValu>652</catValu>
+        <labl>Hawaiian/Pacific Islander only</labl>
+      </catgry>
+      <catgry>
+        <catValu>700</catValu>
+        <labl>Other (single) race, n.e.c.</labl>
+      </catgry>
+      <catgry>
+        <catValu>801</catValu>
+        <labl>White-Black</labl>
+      </catgry>
+      <catgry>
+        <catValu>802</catValu>
+        <labl>White-American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>803</catValu>
+        <labl>White-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>804</catValu>
+        <labl>White-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>805</catValu>
+        <labl>Black-American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>806</catValu>
+        <labl>Black-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>807</catValu>
+        <labl>Black-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>808</catValu>
+        <labl>American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>809</catValu>
+        <labl>Asian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>810</catValu>
+        <labl>White-Black-American Indian</labl>
+      </catgry>
+      <catgry>
+        <catValu>811</catValu>
+        <labl>White-Black-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>812</catValu>
+        <labl>White-American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>813</catValu>
+        <labl>White-Asian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>814</catValu>
+        <labl>White-Black-American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>815</catValu>
+        <labl>American Indian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>816</catValu>
+        <labl>White-Black--Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>817</catValu>
+        <labl>White-American Indian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>818</catValu>
+        <labl>Black-American Indian-Asian</labl>
+      </catgry>
+      <catgry>
+        <catValu>819</catValu>
+        <labl>White-American Indian-Asian-Hawaiian/Pacific Islander</labl>
+      </catgry>
+      <catgry>
+        <catValu>820</catValu>
+        <labl>Two or three races, unspecified</labl>
+      </catgry>
+      <catgry>
+        <catValu>830</catValu>
+        <labl>Four or five races, unspecified</labl>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>Blank</labl>
+      </catgry>
+      <concept vocab="IPUMS">Demographics Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="EDUC" dcml="0" files="ExtractData" intrvl="discrete" name="EDUC">
+      <location EndPos="15" StartPos="13" width="3"/>
+      <labl>Educational attainment recode</labl>
+      <txt><![CDATA[EDUC indicates respondents' educational attainment, as measured by the highest year of school or degree completed. Note that completion differs from the highest year of school attendance; for example, respondents who attended 10th grade but did not finish were classified in EDUC as having completed 9th grade. 
+
+EDUC is a combination of two other variables, HIGRADE and EDUC99, which measure educational attainment in different ways.  HIGRADE is available for years prior to 1992 and gives the respondent's highest grade of school or year of college completed.  EDUC99 is available beginning in 1992 and classifies high school graduates according to their highest degree or diploma attained.  
+
+General and detailed codes are not yet available for IPUMS-CPS, but one can construct the general version of EDUC by reading only the first two columns of EDUC.]]></txt>
+      <catgry>
+        <catValu>000</catValu>
+        <labl>NIU or no schooling</labl>
+      </catgry>
+      <catgry>
+        <catValu>001</catValu>
+        <labl>NIU or blank</labl>
+      </catgry>
+      <catgry>
+        <catValu>002</catValu>
+        <labl>None or preschool</labl>
+      </catgry>
+      <catgry>
+        <catValu>010</catValu>
+        <labl>Grades 1, 2, 3, or 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>011</catValu>
+        <labl>Grade 1</labl>
+      </catgry>
+      <catgry>
+        <catValu>012</catValu>
+        <labl>Grade 2</labl>
+      </catgry>
+      <catgry>
+        <catValu>013</catValu>
+        <labl>Grade 3</labl>
+      </catgry>
+      <catgry>
+        <catValu>014</catValu>
+        <labl>Grade 4</labl>
+      </catgry>
+      <catgry>
+        <catValu>020</catValu>
+        <labl>Grades 5 or 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>021</catValu>
+        <labl>Grade 5</labl>
+      </catgry>
+      <catgry>
+        <catValu>022</catValu>
+        <labl>Grade 6</labl>
+      </catgry>
+      <catgry>
+        <catValu>030</catValu>
+        <labl>Grades 7 or 8</labl>
+      </catgry>
+      <catgry>
+        <catValu>031</catValu>
+        <labl>Grade 7</labl>
+      </catgry>
+      <catgry>
+        <catValu>032</catValu>
+        <labl>Grade 8</labl>
+      </catgry>
+      <catgry>
+        <catValu>040</catValu>
+        <labl>Grade 9</labl>
+      </catgry>
+      <catgry>
+        <catValu>050</catValu>
+        <labl>Grade 10</labl>
+      </catgry>
+      <catgry>
+        <catValu>060</catValu>
+        <labl>Grade 11</labl>
+      </catgry>
+      <catgry>
+        <catValu>070</catValu>
+        <labl>Grade 12</labl>
+      </catgry>
+      <catgry>
+        <catValu>071</catValu>
+        <labl>12th grade, no diploma</labl>
+      </catgry>
+      <catgry>
+        <catValu>072</catValu>
+        <labl>12th grade, diploma unclear</labl>
+      </catgry>
+      <catgry>
+        <catValu>073</catValu>
+        <labl>High school diploma or equivalent</labl>
+      </catgry>
+      <catgry>
+        <catValu>080</catValu>
+        <labl>1 year of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>081</catValu>
+        <labl>Some college but no degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>090</catValu>
+        <labl>2 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>091</catValu>
+        <labl>Associate's degree, occupational/vocational program</labl>
+      </catgry>
+      <catgry>
+        <catValu>092</catValu>
+        <labl>Associate's degree, academic program</labl>
+      </catgry>
+      <catgry>
+        <catValu>100</catValu>
+        <labl>3 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>110</catValu>
+        <labl>4 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>111</catValu>
+        <labl>Bachelor's degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>120</catValu>
+        <labl>5+ years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>121</catValu>
+        <labl>5 years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>122</catValu>
+        <labl>6+ years of college</labl>
+      </catgry>
+      <catgry>
+        <catValu>123</catValu>
+        <labl>Master's degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>124</catValu>
+        <labl>Professional school degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>125</catValu>
+        <labl>Doctorate degree</labl>
+      </catgry>
+      <catgry>
+        <catValu>999</catValu>
+        <labl>Missing/Unknown</labl>
+      </catgry>
+      <concept vocab="IPUMS">Education Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+    <var ID="INCWAGE" dcml="0" files="ExtractData" intrvl="contin" name="INCWAGE">
+      <location EndPos="23" StartPos="16" width="8"/>
+      <labl>Wage and salary income</labl>
+      <txt><![CDATA[INCWAGE indicates each respondent's total pre-tax wage and salary income--that is, money received as an employee--for the previous calendar year.  Amounts are expressed as they were reported to the interviewer; users must adjust for inflation using Consumer Price Index adjustment factors. 
+
+For ASEC samples 1988-onward, INCWAGE is derived from a Census recode variable.  The topcoded components of INCWAGE are OINCWAGE and INCLONGJ.  OINCWAGE  is always a component of INCWAGE.  When SRCEARN indicates that INCLONGJ is earned from wage and salary, INCLONGJ is an additional component of INCWAGE.]]></txt>
+      <codInstr><![CDATA[Codes99999999 = N.I.U. (Not in Universe)
+99999998 = Missing (1962-1966 only)
+
+The Census Bureau applies different disclosure avoidance measures across time for individuals with high income in this variable. Detailed explanations of these methods, topcodes, and replacement value and swap value thresholds are available here.]]></codInstr>
+      <concept vocab="IPUMS">Income Variables -- PERSON</concept>
+      <varFormat schema="other" type="numeric"/>
+    </var>
+  </dataDscr>
+</codeBook>
